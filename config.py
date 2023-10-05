@@ -15,9 +15,9 @@ def is_enabled(value, default):
 
 class Config(object):
     # Mandatory variables for the bot to start
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    API_ID = int(os.environ.get("26726762"))
+    API_HASH = os.environ.get("04c1514942a1fa624c461d1b0d61b85a")
+    BOT_TOKEN = os.environ.get("6423894289:AAEOJtMi95CxKd8oF_msQxd7uVDvuEdghBw")
     DROPLINK_API = os.environ.get("DROPLINK_API")
     MDISK_API = os.environ.get("MDISK_API")
     ADMINS = []
