@@ -1,14 +1,14 @@
-aiohttp~=3.8.5
+aiohttp==3.8.5
 pymongo[srv]==4.4.1
 motor==3.3.1
-Pyrogram==2.0.106
+Pyrogram
 pyshorteners==1.0.1
 TgCrypto==1.2.5
 bs4==0.0.1
 mdisky
 heroku3
 shortzy==0.0.8
-aiofiles==23.2.1
+aiofiles
 validators
 requests
 lxml
