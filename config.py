@@ -15,9 +15,9 @@ def is_enabled(value, default):
 
 class Config(object):
     # Mandatory variables for the bot to start
-    API_ID = int(os.environ.get("26726762"))
-    API_HASH = os.environ.get("04c1514942a1fa624c461d1b0d61b85a")
-    BOT_TOKEN = os.environ.get("6423894289:AAEOJtMi95CxKd8oF_msQxd7uVDvuEdghBw")
+    API_ID = int(os.environ.get("API_ID", "26726762"))
+    API_HASH = os.environ.get("API_HASH", "04c1514942a1fa624c461d1b0d61b85a")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6423894289:AAEOJtMi95CxKd8oF_msQxd7uVDvuEdghBw")
     DROPLINK_API = os.environ.get("DROPLINK_API")
     MDISK_API = os.environ.get("MDISK_API")
     ADMINS = []
@@ -93,7 +93,7 @@ class Config(object):
 <b>📂 File Name :</b> {}\n
 <b>📦 File Size :</b> {}\n"""
 
-    BASE_SITE = os.environ.get("BASE_SITE", "gyanilinks.com")
+    BASE_SITE = os.environ.get("BASE_SITE", "bindaaslinks.com")
     BASE_SITE_2 = os.environ.get("BASE_SITE_2", None)
     BASE_SITE_3 = os.environ.get("BASE_SITE_3", None)
 
