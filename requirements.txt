@@ -1,5 +1,5 @@
 aiohttp==3.8.5
-pymongo[srv]==4.4.1
+pymongo[srv]==4.5.0
 motor==3.3.1
 Pyrogram
 pyshorteners==1.0.1
