@@ -22,8 +22,8 @@ class Config(object):
     MDISK_API = os.environ.get("MDISK_API")
     ADMINS = []
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertor")
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    OWNER_ID = int(os.environ.get("OWNER_ID"))
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://hasangulfam:<AAbb9012>@cluster0.egyrz70.mongodb.net/?retryWrites=true&w=majority")
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1252654109"))
 
     #  Optionnal variables
     BROADCAST_AS_COPY = False
@@ -62,7 +62,7 @@ class Config(object):
     MAINTENENCE_MODE = False
 
     VERIFIED_TIME = 1
-    LOG_CHANNEL = 0
+    LOG_CHANNEL = -1001747405550
     UPDATE_CHANNEL: int = 0
     KEYBOARD_BUTTON = True
 
@@ -93,7 +93,7 @@ class Config(object):
 <b>📂 File Name :</b> {}\n
 <b>📦 File Size :</b> {}\n"""
 
-    BASE_SITE = os.environ.get("BASE_SITE", "bindaaslinks.com")
+    BASE_SITE = os.environ.get("BASE_SITE", "gyanilinks.com")
     BASE_SITE_2 = os.environ.get("BASE_SITE_2", None)
     BASE_SITE_3 = os.environ.get("BASE_SITE_3", None)
 
