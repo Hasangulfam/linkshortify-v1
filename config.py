@@ -15,15 +15,15 @@ def is_enabled(value, default):
 
 class Config(object):
     # Mandatory variables for the bot to start
-    API_ID = int(os.environ.get("API_ID", "26726762"))
-    API_HASH = os.environ.get("API_HASH", "04c1514942a1fa624c461d1b0d61b85a")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6423894289:AAEOJtMi95CxKd8oF_msQxd7uVDvuEdghBw")
+    API_ID = int(os.environ.get("26726762"))
+    API_HASH = os.environ.get("04c1514942a1fa624c461d1b0d61b85a")
+    BOT_TOKEN = os.environ.get("6423894289:AAEOJtMi95CxKd8oF_msQxd7uVDvuEdghBw")
     DROPLINK_API = os.environ.get("DROPLINK_API")
     MDISK_API = os.environ.get("MDISK_API")
     ADMINS = []
-    DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertor")
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://hasangulfam:<AAbb9012>@cluster0.egyrz70.mongodb.net/?retryWrites=true&w=majority")
-    OWNER_ID = int(os.environ.get("OWNER_ID", "1252654109"))
+    DATABASE_NAME = os.environ.get("MdiskConvertor")
+    DATABASE_URL = os.environ.get("mongodb+srv://hasangulfam:<AAbb9012>@cluster0.egyrz70.mongodb.net/?retryWrites=true&w=majority")
+    OWNER_ID = int(os.environ.get(""1252654109"))
 
     #  Optionnal variables
     BROADCAST_AS_COPY = False
