@@ -31,7 +31,7 @@ class Config(object):
     INCLUDE_DOMAIN = []
     EXCLUDE_DOMAIN = []
     CHANNELS = True
-    CHANNEL_ID = []
+    CHANNEL_ID = [-1001654232839]
     FORWARD_MESSAGE = False
     SOURCE_CODE = ""
     USERNAME = None
