@@ -93,8 +93,8 @@ class Config(object):
 <b>📂 File Name :</b> {}\n
 <b>📦 File Size :</b> {}\n"""
 
-    BASE_SITE = os.environ.get("BASE_SITE", "bindaaslinks.com")
-    BASE_SITE_2 = os.environ.get("BASE_SITE_2", None)
+    BASE_SITE = os.environ.get("BASE_SITE", "gyanilinks.com")
+    BASE_SITE_2 = os.environ.get("BASE_SITE_2", "krownlinks.com")
     BASE_SITE_3 = os.environ.get("BASE_SITE_3", None)
 
     base_sites = [i for i in [BASE_SITE, BASE_SITE_2, BASE_SITE_3] if i != None]
