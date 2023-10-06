@@ -74,7 +74,7 @@ class Config(object):
 
     DIRECT_GEN_DB = -1001589836058
     DIRECT_GEN_BOT_USERNAME = 'gyanilinkfilestreambot'
-    DIRECT_GEN_URL = None
+    DIRECT_GEN_URL = '143.244.137.54'
     DIRECT_GEN = bool(DIRECT_GEN_DB and DIRECT_GEN_BOT_USERNAME and DIRECT_GEN_URL)
 
     IS_BINDASSLINKS = True
