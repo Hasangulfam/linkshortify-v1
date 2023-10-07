@@ -68,13 +68,13 @@ class Config(object):
 
     IS_MDISK = True
     IS_DEFAULT_BASE_SITE = True
-    FILE_STORE_DB = -1001589836058
-    FILE_STORE_BOT_USERNAME = 'gyanilinksfilesharingbot'
+    FILE_STORE_DB = "-1001589836058"
+    FILE_STORE_BOT_USERNAME = "gyanilinksfilesharingbot"
     FILE_STORE = bool(FILE_STORE_DB and FILE_STORE_BOT_USERNAME)
 
-    DIRECT_GEN_DB = -1001589836058
-    DIRECT_GEN_BOT_USERNAME = 'gyanilinkfilestreambot'
-    DIRECT_GEN_URL = '143.244.137.54'
+    DIRECT_GEN_DB = "-1001589836058"
+    DIRECT_GEN_BOT_USERNAME = "gyanilinkfilestreambot"
+    DIRECT_GEN_URL = "143.244.137.54"
     DIRECT_GEN = bool(DIRECT_GEN_DB and DIRECT_GEN_BOT_USERNAME and DIRECT_GEN_URL)
 
     IS_BINDASSLINKS = True
