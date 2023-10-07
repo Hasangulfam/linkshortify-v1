@@ -999,7 +999,7 @@ async def is_private_cmd_handler(bot, message):
         Config.IS_PRIVATE = value
         await message.reply("Updated successfully")
     else:
-        await message.reply(f"Is Private - {Config.IS_PRIVATE}\nEx: /is_private True")
+        await message.reply(f"Is Private - {Config.IS_PRIVATE}\nEx: /is_private False")
 
 
 @Client.on_message(filters.command("link_bypass") & filters.private)
