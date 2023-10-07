@@ -45,7 +45,7 @@ async def maintenence_command(c, m: Message):
         await m.reply("Updated successfully")
     else:
         await m.reply(
-            f"Maintenence Mode - {Config.MAINTENENCE_MODE}\nEx: `/maintenence True`"
+            f"Maintenence Mode - {Config.MAINTENENCE_MODE}\nEx: `/maintenence False`"
         )
 
 
