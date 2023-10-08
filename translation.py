@@ -33,7 +33,7 @@ Hey! My name is {firstname}. I am a Link Convertor and Shortener Bot, here to ma
 
 👇 USEFULL COMMANDS 👇
 
-〽️ Hit 👉 /start To Know More About How To Link bindaaslinks.com Account To This Bot.
+〽️ Hit 👉 /start To Know More About How To Link gyanilinks.com Account To This Bot.
 
 🤘 Hit 👉 /features To Know More Features Of This Bot.
 
@@ -41,9 +41,9 @@ Hey! My name is {firstname}. I am a Link Convertor and Shortener Bot, here to ma
 
 💁‍♀️ Hit 👉 /help To Get Help.
 
-🔗 Hit 👉 /Api To Link Your Bindaaslinks Account 
+🔗 Hit 👉 /Api To Link Your Gyanilinks Account 
 
-Ⓜ️ Hit 👉 /mdisk_api Link Your Mdisk Account To Converter Others Mdisk Links To Your Mdisklink + Bindaaslinks
+Ⓜ️ Hit 👉 /mdisk_api Link Your Mdisk Account To Converter Others Mdisk Links To Your Mdisklink + Gyanilinks
 
 🅱 Hit 👉 /bitly_api Link Your Bitly account To Converter Links To Bitly 
 
@@ -57,14 +57,14 @@ Hey! My name is {firstname}. I am a Link Convertor and Shortener Bot, here to ma
 
 ⚙ Hit 👉 /settings To Set settings As per your wish
 
-IF You need More HeLp Then Contact @BindaasLinksIndia ♥️**"""
+IF You need More HeLp Then Contact @idblant ♥️**"""
 
 
 Config.ABOUT_TEXT = """**👉Know More: 
 
 ➲🤖 ʙᴏᴛ ɴᴀᴍᴇ  :  {} 
 
-➲✅ sɪᴛᴇ ɴᴀᴍᴇ : Earnl.site
+➲✅ sɪᴛᴇ ɴᴀᴍᴇ : Gyanilinks.com
 
 ➲📢 ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://telegram.me/gyanilinks)
 
