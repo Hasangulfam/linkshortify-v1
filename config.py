@@ -24,7 +24,6 @@ class Config(object):
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertor")
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://hasangulfam:GULfam6512@cluster0.egyrz70.mongodb.net/?retryWrites=true&w=majority")
     OWNER_ID = int(os.environ.get("OWNER_ID", "1252654109"))
-    ADMINS.append(OWNER_ID)
 
     #  Optionnal variables
     BROADCAST_AS_COPY = False
