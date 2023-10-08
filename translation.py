@@ -20,7 +20,7 @@ Ex: `/batch -100xxx`
 
 Config.START_MESSAGE = """🄷🄴🄻🄻🄾, {}
 **I'm gyanilinks.com  Official Bot I Can Convert  Bulk Links To Yours Short Links From Direct Your gyanilinks.com Account With Just a Simple Clicks😍\n\n** 
-**How To Use 🤔\n ✅1. Got To [https://bit.ly/3cbbgs0](https://bindaaslinks.com/ref/bhatmanjusms) & Complete Your Registration.\n ✅2.Get Your API https://gyanilinks.com/member/tools/api Copy Your API \n ✅3. Add your api using command /api \n Example : `/Api 0beb1135aac920c1e89856847ef4e8e03e8547a9` \n\n**
+**How To Use 🤔\n ✅1. Got To [hhttps://gyanilinks.com/auth/signup](https://gyanilinks.com/auth/signup) & Complete Your Registration.\n ✅2.Get Your API https://gyanilinks.com/member/tools/api Copy Your API \n ✅3. Add your api using command /api \n Example : `/Api 0beb1135aac920c1e89856847ef4e8e03e8547a9` \n\n**
 ** For More Help Press /Help**
 
 **ᴄᴜʀʀᴇɴᴛ ᴍᴇᴛʜᴏᴅ sᴇʟᴇᴄᴛᴇᴅ: {}**
